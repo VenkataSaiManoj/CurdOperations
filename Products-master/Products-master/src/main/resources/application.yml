@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "product-service"
+  data:
+    mongodb:
+      database: amazon
+      uri: mongodb://localhost:27017
+  servlet:
+    multipart:
+      max-file-size: 120MB
+      max-request-size: 120MB
+
+
